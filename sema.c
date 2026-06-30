@@ -2,11 +2,17 @@
 
 void PrintVersion()
 {
-    printf("Standard SEMA v1.0\n");
+    printf("ALIGN Custom SEMA v1.0\n");
+}
+
+void AlignFeature()
+{
+    printf("Align Feature Enabled\n");
 }
 
 int main()
 {
     PrintVersion();
+    AlignFeature();
     return 0;
 }
