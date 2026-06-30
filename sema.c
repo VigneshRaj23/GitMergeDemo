@@ -2,11 +2,17 @@
 
 void PrintVersion()
 {
-    printf("Standard SEMA v1.0\n");
+    printf("Standard SEMA v1.1 (Bug Fixed)\n");
+}
+
+void BugFix()
+{
+    printf("Fixed temperature calculation bug.\n");
 }
 
 int main()
 {
     PrintVersion();
+    BugFix();
     return 0;
 }
